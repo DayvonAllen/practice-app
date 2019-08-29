@@ -22,3 +22,47 @@ ion-toolbar {
     font-size: 1.2rem;
     margin-top: 1.2rem;
   }
+
+  @media (min-width: 780px) {
+    ion-toolbar {
+      height: 8rem;
+
+  }
+    ion-back-button{
+      font-size: 2.3rem;
+    }
+    ion-title {
+      font-size: 2.9rem;
+    }
+  ion-card{
+    height: 46rem;
+  }
+   h1{
+    font-size: 3.5rem;
+   }
+   p{
+    font-size: 3.2rem;
+    margin-top: 1.8rem;
+   }
+  }
+  @media (min-width: 650px) and (max-width: 770px) {
+    ion-title {
+      font-size: 2.4rem;
+    }
+    ion-toolbar {
+      height: 6.5rem;
+    }
+    ion-back-button{
+      font-size: 1.7rem;
+    }
+    ion-card{
+      height: 33rem;
+    }
+    h1{
+      font-size: 2.5rem;
+     }
+     p{
+      font-size: 2.2rem;
+      margin-top: 1.5rem;
+     }
+  }

@@ -351,12 +351,12 @@ export class DataService {
     {
       "id": "32",
       "word": "OMG",
-      "base": "",
-      "translation": "",
-      "exampleSentence": "OMG, he really broke up with her.",
-      "exampleSentence2":  "I know, right? I still can't believe it.",
-      "sentenceTranslation": "",
-      "sentenceTranslation2": "",
+      "base": "Oh My God,Oh My Gosh,Oh My Goodness の略語",
+      "translation": "オーマイガー！シチュエーションは色々ですが、とりあずびっくりした時に使います",
+      "exampleSentence": "OMG, he really broke up with her?",
+      "exampleSentence2":  "Yeah, I still can't believe it.",
+      "sentenceTranslation": "うそっ！彼ホントに彼女と別れたの？",
+      "sentenceTranslation2": "そうなんだって。マジ信じらんないよねー。",
       "level": "2"
     },
     {
@@ -369,7 +369,29 @@ export class DataService {
       "sentenceTranslation": "彼女にダイヤモンドの指輪を買うつもりなんだ。",
       "sentenceTranslation2": "お前みたいな奴を捕まえて、彼女本当にラッキーだよな。",
       "level": "1"
-    }
+    },
+    {
+      "id": "34",
+      "word": "extra",
+      "base": "余分な、必要以上の、追加の",
+      "translation": "やり過ぎ、過剰な",
+      "exampleSentence": "John is being so extra right now.",
+      "exampleSentence2":  "I know, why does he always have to act like that?",
+      "sentenceTranslation": "ジョン、今やり過ぎだよな。",
+      "sentenceTranslation2": "うん、なんでアイツいつもあんなんなんだろうな。",
+      "level": "3"
+    },
+    {
+      "id": "35",
+      "word": "GOAT",
+      "base": "Greatest of All Timeの略",
+      "translation": "至上最高の",
+      "exampleSentence": "I can't believe that Tom Brady won six super bowls.",
+      "exampleSentence2":  "He's the GOAT.",
+      "sentenceTranslation": "トム・ブレイディはスーパーボウルで６回も優勝したなんて信じらんね〜。",
+      "sentenceTranslation2": "彼は至上最高！",
+      "level": "1"
+    },
   ]
   constructor() { }
 
