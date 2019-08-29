@@ -1,0 +1,24 @@
+ion-toolbar {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ion-title {
+    font-size: 1.4rem;
+  }
+  ion-card {
+    height: 21.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  h1{
+    font-size: 1.5rem;
+  }
+  p{
+    text-align: left;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+  }

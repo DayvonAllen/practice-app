@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="home"></ion-back-button>
+          </ion-buttons>
+      <ion-title color="light">
+          スラング一覧
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+      <div id="img">
+        <img src="../../assets/new-learning(1).png">
+      </div>
+      <div id="container" *ngFor="let item of slang">
+        <ion-button class="ion-margin-top" color="secondary" routerLink="{{item.id}}">
+          <span>{{item.word}}</span>
+          <ion-icon name="play" color="light"></ion-icon>
+        </ion-button>
+      </div>
+  </ion-content>
+  

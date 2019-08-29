@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/words"></ion-back-button>
+    </ion-buttons>
+    <ion-title color="light">
+      {{word.word | uppercase}}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-fab vertical="top" horizontal="end">
+    <ion-fab-button color="{{color}}" routerLink="/usage">
+      <ion-text color="{{font}}">
+        <h6 id="level">危険度</h6>
+      </ion-text>
+      <ion-text color="{{font}}">
+        <h6 id="number">{{word.level}}</h6>
+      </ion-text>
+    </ion-fab-button>
+  </ion-fab>
+  <ion-card color="secondary">
+    <ion-card-content text-center>
+      <ion-text color="dark">
+        <h1 id="word">{{word.word | uppercase}}</h1>
+      </ion-text>
+      <ion-label color="dark" class="ion-margin-top">
+        <h2 class="translation">基本的な意味：{{word.base}}</h2>
+      </ion-label>
+      <ion-label color="dark" class="ion-margin-top">
+        <h2 class="translation">スラング：{{word.translation}}</h2>
+      </ion-label>
+    </ion-card-content>
+  </ion-card>
+  <div id="content">
+    <div id="first">
+      <ion-text>
+        <h3 class="example">A: {{word.exampleSentence}}</h3>
+      </ion-text>
+      <ion-text>
+        <h3 class="example">A: {{word.sentenceTranslation}}</h3>
+      </ion-text>
+    </div>
+    <div id="second">
+      <ion-text>
+        <h3 class="example">B: {{word.exampleSentence2}}</h3>
+      </ion-text>
+      <ion-text>
+        <h3 class="example">B: {{word.sentenceTranslation2}}</h3>
+      </ion-text>
+    </div>
+  </div>
+</ion-content>
