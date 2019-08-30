@@ -14,7 +14,7 @@ export class DataService {
       "exampleSentence": "What do you think about him?",
       "exampleSentence2": "I don't like him, he was too basic for me to waste time on.",
       "sentenceTranslation": "彼の事、どう思う？",
-      "sentenceTranslation2": "嫌い、イケてなさ過ぎるんだよね。奴に関わってる暇はないわ。",
+      "sentenceTranslation2": "好きじゃないな。イケてなさ過ぎるんだよね。奴に関わってる暇はないわ。",
       "level": "3"
     },
     {
@@ -36,7 +36,7 @@ export class DataService {
       "exampleSentence": "John's getting destroyed in super smash bros right now",
       "exampleSentence2": "I know, I bet he's going to get salty and leave soon.",
       "sentenceTranslation": "ジョンはスーパースマッシュブラザーズで今ボロ負けし出してるぜ。",
-      "sentenceTranslation2": "そうだね。そのうちキレて退出するな。",
+      "sentenceTranslation2": "うん、そのうちキレて退出するな。",
       "level": "2"
     },
     {
@@ -69,7 +69,7 @@ export class DataService {
       "exampleSentence": "We beat them so easily.",
       "exampleSentence2": "I know. They are so garbage",
       "sentenceTranslation": "本当に楽勝だったぜ。",
-      "sentenceTranslation2": "そうだね。やつらクソ弱かったもんな。",
+      "sentenceTranslation2": "だな。やつらクソ弱かったもんな。",
       "level": "4"
     },
     {
@@ -390,6 +390,94 @@ export class DataService {
       "exampleSentence2":  "He's the GOAT.",
       "sentenceTranslation": "トム・ブレイディはスーパーボウルで６回も優勝したなんて信じらんね〜。",
       "sentenceTranslation2": "彼は至上最高！",
+      "level": "1"
+    },
+    {
+      "id": "36",
+      "word": "keep it 100",
+      "base": "直訳すると、100を保つ",
+      "translation": "100％正直でいる　keep it realと同じ意味になります",
+      "exampleSentence": "I've always kept it 100 with you.",
+      "exampleSentence2":  "I know, thanks for that.",
+      "sentenceTranslation": "俺はいつもお前に100%リアルでいるぜ。",
+      "sentenceTranslation2": "わかってるって。ありがとな。",
+      "level": "1"
+    },
+    {
+      "id": "37",
+      "word": "lit",
+      "base": "light の過去形",
+      "translation": "酔う、ハイになる、すごく楽しい",
+      "exampleSentence": "Did you go to that party last night?",
+      "exampleSentence2":  "Yeah, it was lit.",
+      "sentenceTranslation": "昨日の夜のパーティーいった？",
+      "sentenceTranslation2": "うん、めちゃ楽しかったよ！",
+      "level": "1"
+    },
+    {
+      "id": "38",
+      "word": "lowkey",
+      "base": "控えめな、地味な、目立たない",
+      "translation": "ちょっと",
+      "exampleSentence": "I'm lowkey hungry right now.",
+      "exampleSentence2":  "Let's go eat.",
+      "sentenceTranslation": "ちょっとお腹すいてきた。",
+      "sentenceTranslation2": "なんか食べよ！",
+      "level": "1"
+    },
+    {
+      "id": "39",
+      "word": "chipper",
+      "base": "　元気な、快活な",
+      "translation": "元気な、ご機嫌な",
+      "exampleSentence": "You sure are chipper today.",
+      "exampleSentence2":  "It's because I just got engaged today.",
+      "sentenceTranslation": "今日、ご機嫌じゃん。",
+      "sentenceTranslation2": "なぜって今日婚約したとこなんだ。",
+      "level": "1"
+    },
+    {
+      "id": "40",
+      "word": "thot",
+      "base": "",
+      "translation": "ビッチ、嫌な女、あばずれ",
+      "exampleSentence": "You better stop talking to her. I heard that she's a thot.",
+      "exampleSentence2":  "Thanks for telling me.",
+      "sentenceTranslation": "あの女と話さない方がいいぜ。アイツくそ女ってきいたぜ。",
+      "sentenceTranslation2": "教えてくれてありがと。",
+      "level": "5"
+    },
+    {
+      "id": "41",
+      "word": "cool minute",
+      "base": "",
+      "translation": "長い間",
+      "exampleSentence": "I haven't been here in a cool minute.",
+      "exampleSentence2":  "Same here, I used to come here all the time when I was a kid.",
+      "sentenceTranslation": "長い事、ここに来てなかったなあ。",
+      "sentenceTranslation2": "俺もだよ。子供の頃は、いつもここに来てたんだよなあ。",
+      "level": "1"
+    },
+    {
+      "id": "42",
+      "word": "stan",
+      "base": "スタン（男の名）",
+      "translation": "熱狂的なファン　エミネムの曲、Stanから広まった言葉です",
+      "exampleSentence": "She is such a Brad Pitt stan",
+      "exampleSentence2":  "I know, he is a God to her.",
+      "sentenceTranslation": "彼女、本当ブラピの熱狂的なファンだよ。",
+      "sentenceTranslation2": "知ってる、彼女にとってブラピは神だよ。",
+      "level": "2"
+    },
+    {
+      "id": "43",
+      "word": "turnt up",
+      "base": "turned up",
+      "translation": "パーティやイベントで盛り上がる、バイブスが上がる、ガチあげ",
+      "exampleSentence": "This party is turnt up.",
+      "exampleSentence2":  "I'm glad we decided to come.",
+      "sentenceTranslation": "このパーティ、盛り上がってる〜。",
+      "sentenceTranslation2": "来て良かった〜。",
       "level": "1"
     },
   ]
